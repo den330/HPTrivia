@@ -6,6 +6,7 @@ struct ContentView: View {
     @State private var moveBackgroundImage = false
     @State private var scalePlayButton = false
     @State private var animateViewsIn = false
+    @State private var showInstructions = false
     
     var body: some View {
         GeometryReader { geo in
@@ -63,7 +64,7 @@ struct ContentView: View {
                         VStack {
                             if animateViewsIn {
                                 Button {
-                                    // show
+                                    showInstructions.toggle()
                                 } label: {
                                     Image(systemName: "info.circle.fill")
                                         .font(.largeTitle)
@@ -125,8 +126,11 @@ struct ContentView: View {
         .ignoresSafeArea()
         .onAppear {
             animateViewsIn = true
-//          playAudio()
+//            playAudio()
         }
+        .sheet(isPresented: $showInstructions, content: {
+            Instructions()
+        })
     }
     private func playAudio() {
         let sound = Bundle.main.path(forResource: "magic-in-the-air", ofType: "mp3")

@@ -21,6 +21,7 @@
 		90EA824C2D7D4E370008CD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA82342D7D4E370008CD9E /* ContentView.swift */; };
 		90EA824D2D7D4E370008CD9E /* HP_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA82372D7D4E370008CD9E /* HP_TriviaApp.swift */; };
 		90EAF1D12DD81B8800983B63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAF1D02DD81B8600983B63 /* Constants.swift */; };
+		90EAF1D72DD83CE500983B63 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAF1D62DD83CE500983B63 /* Instructions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		90EA823E2D7D4E370008CD9E /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
 		90EA823F2D7D4E370008CD9E /* trivia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
 		90EAF1D02DD81B8600983B63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90EAF1D62DD83CE500983B63 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				90EAF1D02DD81B8600983B63 /* Constants.swift */,
 				90EA82372D7D4E370008CD9E /* HP_TriviaApp.swift */,
+				90EAF1D62DD83CE500983B63 /* Instructions.swift */,
 				90EA82342D7D4E370008CD9E /* ContentView.swift */,
 				90EA823F2D7D4E370008CD9E /* trivia.json */,
 				90EA82332D7D4E370008CD9E /* Assets.xcassets */,
@@ -181,6 +184,7 @@
 			files = (
 				90EA824C2D7D4E370008CD9E /* ContentView.swift in Sources */,
 				90EA824D2D7D4E370008CD9E /* HP_TriviaApp.swift in Sources */,
+				90EAF1D72DD83CE500983B63 /* Instructions.swift in Sources */,
 				90EAF1D12DD81B8800983B63 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
