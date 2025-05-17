@@ -20,6 +20,7 @@
 		90EA824B2D7D4E370008CD9E /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 90EA823F2D7D4E370008CD9E /* trivia.json */; };
 		90EA824C2D7D4E370008CD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA82342D7D4E370008CD9E /* ContentView.swift */; };
 		90EA824D2D7D4E370008CD9E /* HP_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA82372D7D4E370008CD9E /* HP_TriviaApp.swift */; };
+		90EAF1D12DD81B8800983B63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EAF1D02DD81B8600983B63 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		90EA823D2D7D4E370008CD9E /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
 		90EA823E2D7D4E370008CD9E /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
 		90EA823F2D7D4E370008CD9E /* trivia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
+		90EAF1D02DD81B8600983B63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		90EA82402D7D4E370008CD9E /* HP Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				90EAF1D02DD81B8600983B63 /* Constants.swift */,
 				90EA82372D7D4E370008CD9E /* HP_TriviaApp.swift */,
 				90EA82342D7D4E370008CD9E /* ContentView.swift */,
 				90EA823F2D7D4E370008CD9E /* trivia.json */,
@@ -124,7 +127,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					908D4DB22D7D4C54007ADB00 = {
 						CreatedOnToolsVersion = 16.2;
@@ -178,6 +181,7 @@
 			files = (
 				90EA824C2D7D4E370008CD9E /* ContentView.swift in Sources */,
 				90EA824D2D7D4E370008CD9E /* HP_TriviaApp.swift in Sources */,
+				90EAF1D12DD81B8800983B63 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +223,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KG4ZLSV952;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -244,6 +249,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -282,6 +288,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KG4ZLSV952;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -299,6 +306,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -311,7 +319,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HP Trivia/Preview Content\"";
-				DEVELOPMENT_TEAM = KG4ZLSV952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,7 +339,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -345,7 +352,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HP Trivia/Preview Content\"";
-				DEVELOPMENT_TEAM = KG4ZLSV952;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -366,7 +372,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
