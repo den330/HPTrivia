@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9095379D2DD8CDFB00085D72 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095379C2DD8CDFB00085D72 /* Settings.swift */; };
 		90EA82412D7D4E370008CD9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EA82312D7D4E370008CD9E /* Preview Assets.xcassets */; };
 		90EA82422D7D4E370008CD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EA82332D7D4E370008CD9E /* Assets.xcassets */; };
 		90EA82432D7D4E370008CD9E /* deep-in-the-dell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90EA82352D7D4E370008CD9E /* deep-in-the-dell.mp3 */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		908D4DB32D7D4C54007ADB00 /* HP Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9095379C2DD8CDFB00085D72 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		90EA82312D7D4E370008CD9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90EA82332D7D4E370008CD9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EA82342D7D4E370008CD9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				90EA823D2D7D4E370008CD9E /* page-flip.mp3 */,
 				90EA823E2D7D4E370008CD9E /* spellcraft.mp3 */,
 				90EA82322D7D4E370008CD9E /* Preview Content */,
+				9095379C2DD8CDFB00085D72 /* Settings.swift */,
 			);
 			path = "HP Trivia";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				90EA824D2D7D4E370008CD9E /* HP_TriviaApp.swift in Sources */,
 				90EAF1D72DD83CE500983B63 /* Instructions.swift in Sources */,
 				90EAF1D12DD81B8800983B63 /* Constants.swift in Sources */,
+				9095379D2DD8CDFB00085D72 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
