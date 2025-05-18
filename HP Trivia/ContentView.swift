@@ -8,6 +8,7 @@ struct ContentView: View {
     @State private var animateViewsIn = false
     @State private var showInstructions = false
     @State private var showSettings = false
+    @State private var showGameplay = false
     
     var body: some View {
         GeometryReader { geo in
@@ -80,7 +81,7 @@ struct ContentView: View {
                         VStack {
                             if animateViewsIn {
                                 Button {
-                                    //
+                                    showGameplay.toggle()
                                 } label: {
                                     Text("Play")
                                         .font(.largeTitle)
@@ -134,6 +135,9 @@ struct ContentView: View {
         })
         .sheet(isPresented: $showSettings) {
             Settings()
+        }
+        .fullScreenCover(isPresented: $showGameplay) {
+            Gameplay()
         }
     }
     private func playAudio() {
